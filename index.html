@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="first-box">
+        <svg onclick="openm()" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" id="outer-menu" class="outer outer-menu" width="24"><path class="menu" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        <svg onclick="closem()" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" id="outer-close" class="outer outer-close" width="24"><path class="close" d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <div id="lis" class="lis">
+            <div class="liss"><a class="lislis" href="#">About Me</a></div>
+            <div class="liss"><a class="lislis" href="#skills">Skill</a></div>
+            <div class="liss"><a class="lislis" href="#projects">Projects</a></div>
+            <div class="liss"><a class="lislis" href="#certificates">Certificates</a></div>
+            <div class="liss"><a class="lislis" href="#profile">Profiles</a></div>
+            <div class="liss"><a class="lislis" href="#contact">Contact</a></div>
+        </div>
+        <p class="name" data-aos="fade-right" data-aos-duration="1500">Navadeepak.C</p>
+        <div class="abt" data-aos="fade-up" data-aos-duration="1500">As a Web-Developer,<br>Engineering Student.</div>
+        <div class="abt-me" data-aos="fade-left" data-aos-duration="1500">I'm Navadeepak, I Have To be Develop Web Design and Give a Compact Styles in That Web, then I Have Able To develope Responsive Web Sites and I am intersted in Work on a Company.</div>
+    </div>
+    <div class="second-box">
+        <div class="skills" id="skills">
+            <div class="title title-skill" data-aos="fade-up">Skills</div>
+            <div class="skill-list">
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">C Language</p><p class="percentage-inner">60%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">Python</p><p class="percentage-inner">65%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">HTML</p><p class="percentage-inner">90%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">CSS</p><p class="percentage-inner">80%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">JS</p><p class="percentage-inner">60%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">ReactJS(Basic)</p><p class="percentage-inner">30%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">NodeJS(Basic)</p><p class="percentage-inner">25%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">AnimeJS</p><p class="percentage-inner">65%</p></div>
+                <div data-aos="fade-right" class="skill-outer-box"><p class="skill-p">TailwindCSS</p><p class="percentage-inner">50%</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="third-box" >
+        <div class="Projects" id="projects">
+            <div class="title title-project" data-aos="fade-up">Projects</div>
+            <div class="project-list">
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/UI_foodapp/" class="project-p">Online Food Web-site UI</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/cars/" class="project-p">Cars Details</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/blog/" class="project-p">Blog</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/heart/" class="project-p">Heart or Love Express</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://github.com/navadeepak/chatapp.git" class="project-p">Chat app in Python</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/Name_color_changer/" class="project-p">Name Color Changer</a></div>
+                <div data-aos="fade-right" class="project-outer-box"><a href="https://navadeepak.github.io/portfolio-updated/" class="project-p">Portfolio One Page</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="fourth-box">
+        <div class="certificates" id="certificates">
+            <div class="title title-certificate" data-aos="fade-up">Certificates</div>
+            <div class="certificate-list">
+                <div data-aos="fade-right" onclick="web()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">Web Development<br><span class="cert-loc">Brainary spot</span></p></a></div>
+                <div data-aos="fade-left" onclick="ai()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">Artificial Intelligence and Data Science<br><span class="cert-loc">Arrow green</span></p></a></div>
+                <div data-aos="fade-right" onclick="dbms()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">DBMS<br><span class="cert-loc">Infosys(SpringBoard)</span></p></a></div>
+                <div data-aos="fade-left" onclick="java()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">Java Programming<br><span class="cert-loc">Infosys(SpringBoard)</span></p></a></div>
+                <div data-aos="fade-right" onclick="sw()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">SW-Testing Fundamental<br><span class="cert-loc">Great Learning</span></p></a></div>
+                <div data-aos="fade-left" onclick="py()" class="main-but-cer" id="main-but"><a class="inner-a"><p class="inner-p-cert">Python for DS<br><span class="cert-loc">Infosys(SpringBoard)</span></p></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="fifth-box">
+        <div class="title title-profile" data-aos="fade-up">Profiles</div>
+        <div class="profiles" id="profile">
+            <a href="https://github.com/navadeepak" class="list-profiles git"><img src="" alt=""><p data-aos="fade-right">Github</p></a>
+            <a href="https://www.linkedin.com/in/navadeepak-c-7b35741b6/" class="list-profiles linked"><img src="" alt=""><p data-aos="fade-left">Linkedin</p></a>
+        </div>
+    </div>
+    <div class="sixth-box">
+        <div class="title title-contact" data-aos="fade-up">Contact</div>
+        <div class="contact" id="contact">
+           <a data-aos="fade-right"  href="https://wa.me/917603857110" class="whatsapp con" id="whatsapp">Whatsapp</a>
+           <a data-aos="fade-left"  href="mailto:navadeepakaswin007@gmail.com" class="mail con" id="mail">Mail</a>
+           <a data-aos="fade-right"  href="https://www.instagram.com/____out____of____control____/" class="instagram con" id="instagram">Instagram</a>
+           <a data-aos="fade-left"  href="tel:+917603857110" class="call con" id="call">Call</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
